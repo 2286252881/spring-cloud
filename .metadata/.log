@@ -1102,3 +1102,6 @@ org.eclipse.core.runtime.OperationCanceledException
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-23 12:51:54.643
 !MESSAGE properties loading for project 'microservice-discovery-eureka'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-23 13:11:31.674
+!MESSAGE properties loading for project 'microservice-provider-user'
