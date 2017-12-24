@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tangcco.other.mapper.MenuMapper">
+	<select id="loadMenu" resultType="com.tangcco.other.beans.Menu">
+		SELECT id,NAME FROM menu
+		WHERE
+		parent_id = 0
+		AND state = 1
+	</select>
+
+	<select id="loadSecondMenu" resultType="com.tangcco.other.beans.Menu">
+		SELECT *
+		FROM menu
+		WHERE parent_id = #{id}
+		AND state = 1
+	</select>
+</mapper>

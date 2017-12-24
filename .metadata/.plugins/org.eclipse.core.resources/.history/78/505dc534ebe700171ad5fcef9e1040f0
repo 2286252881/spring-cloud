@@ -1,0 +1,20 @@
+package com.tangcco.manager.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.tangcco.manager.beans.Answer;
+
+@Controller
+public class AnswerController {
+	
+	
+	
+	
+	@RequestMapping("/findAnswer")
+	@ResponseBody
+	public Answer getAnswer(Answer answer){
+		return 
+	}
+}

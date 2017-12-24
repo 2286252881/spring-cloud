@@ -7,8 +7,13 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="consumer-movie"/>
+			<item value="test"/>
+			<item value="microservice-discovery-eureka-ha"/>
 			<item value="cloud-parent"/>
+			<item value="microservice-consumer-movie"/>
+			<item value="microservice-provider-user"/>
+			<item value="microservice-discovery-eureka"/>
+			<item value="consumer-movie"/>
 			<item value="provider-user"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -35,6 +40,19 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\eclipsework\spring-cloud\bigtree"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -48,6 +66,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\eclipsework\spring-cloud\microservice-discovery-eureka"/>
 			<item value="D:\eclipsework\spring-cloud\cloud-parent"/>
 		</list>
 		<list key="projectNameTemplate">

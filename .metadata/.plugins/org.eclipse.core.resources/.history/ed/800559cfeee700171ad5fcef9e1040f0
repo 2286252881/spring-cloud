@@ -1,0 +1,12 @@
+package com.tangcco.manager.mapper;
+
+import org.apache.ibatis.annotations.Param;
+
+import com.tangcco.manager.beans.Answer;
+import com.tangcco.utils.MyMapper;
+
+public interface AnswerMapper extends MyMapper<Answer> {
+
+	public Answer findOne(@Param("answer") Answer answer);
+
+}

@@ -1,8 +1,14 @@
+spring:
+  application:
+    name: microservice-discovery-eureka
+---
+spring:
+  profiles: pro1   # 指定profile=peer1
 server:
- port: 8761   # 指定该Eureka实例的端口
+  port: 8761       # 指定该Eureka实例的端口
 eureka:
- client:
-  registerWithEureka: false
-  fetchRegistry: false
-  serviceUrl:
-   defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostsname: peer1
+  client:
+    serviceUrl:
+      defaultZone:http://peer2:8762/eureka/

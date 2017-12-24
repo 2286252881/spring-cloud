@@ -1,0 +1,10 @@
+package com.tangcco.manager.mapper;
+
+import com.tangcco.manager.beans.Answer;
+import com.tangcco.utils.MyMapper;
+
+public interface AnswerMapper extends MyMapper<Answer> {
+
+	public Answer findOne();
+
+}

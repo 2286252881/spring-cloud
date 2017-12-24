@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tangcco.manager.mapper.ManagerMapper">
+	<!-- 管理员与所属部门的ResultMap -->
+	<resultMap type="com.tangcco.manager.beans.Manager" id="Manager_and_Development">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="account" property="account" />
+		<result column="password" property="password" />
+		<association property="development"
+			javaType="com.tangcco.employee.beans.Development">
+			<result column="dname" property="name" />
+		</association>
+	</resultMap>
+
+	<!-- 查询所有管理员信息 -->
+	<select id="findAllManager" parameterType="com.tangcco.manager.beans.Manager"
+		resultMap="Manager_and_Development">
+		SELECT
+		m.id,m.name,m.account,m.password,d.name dname
+		FROM
+		manager
+		m,development d
+		<where>
+			m.devel_id = d.id
+		</where>
+		<if test=""></if>
+	</select>
+
+	<!-- 登陆 -->
+	<select id="findByAccAndPas" resultType="com.tangcco.manager.beans.Manager">
+		SELECT
+		`name`,account,`password`
+		FROM manager
+		WHERE `account` = #{account}
+		AND
+		`password` = #{password}
+	</select>
+</mapper>

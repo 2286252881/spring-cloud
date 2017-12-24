@@ -1,0 +1,11 @@
+package com.tangcco.manager.mapper;
+
+import java.util.List;
+
+import com.tangcco.manager.beans.Answer;
+
+public interface AnswerMapper  {
+	
+	public List<Answer> findAll();
+	
+}

@@ -1,0 +1,103 @@
+
+.container{width:1200px;height:5224px;background:#fff;}
+/*ad*/
+.ad{
+	width: 100%;
+	height: 200px;
+	background: #666666;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	font-weight: lighter;
+	line-height: 62PX;
+}
+.ad h1{	
+	font-size: 28px;
+	font-family: "microsoft yahei";
+	padding-top: 10px;
+}
+.ad h1 span{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.ad h3{
+	font-size: 24px;
+	font-family: "microsoft yahei"; 
+	letter-spacing: 10px;  
+}
+.ad h4{
+	font-size: 16px;
+}
+.ad h4 span{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.show-news {position: relative; width: 1200px;height: 540px;margin: 80px auto 0; text-align: center;}
+
+.news-left{position: relative; margin-top: 60px;  width: 592px;height: 400px;float: left;}
+.news-right{margin-top: 60px;width: 568px;height: 400px;float:right;}
+.new1{letter-spacing: 6px; color: #333; font-size: 36px;text-align: center; }
+.new2{color: #999;padding-top: 10px;text-align: center;font-size: 18px;}
+.news-left img{display:none;position: absolute;top: 0;left: 0;}
+.news-right li{height:134px;position: relative;}
+.green{position: absolute; top: 10px;left: 42px;}
+.green p:first-child{width:46px;height: 28px;background:#416a17;font-size: 16px;color: #fff;line-height: 28px;}
+.green p:last-child{font-size: 12px;color:#416a17;line-height: 24px;}
+.new-text{width: 420px;height:134px;position: absolute;right: 35px;}
+.new-text p:first-child{text-align: left;font-size: 16px;color: #333;margin-top: 5px;}
+.new-text p:nth-child(2){text-align: left;font-size: 14px;color: #666;margin-top: 12px;}
+.look{cursor: pointer; margin-top: 8px; float: left; width: 76px;height: 20px;border: 1px solid #ccc;}
+.new-text .look p{float: left; color: #999;font-size: 12px;margin-left:6px; line-height: 10px;}
+.new-text .look span{margin: 6px 7px; float: right; width: 4px;height: 12px;background: url(../images/new04.png)no-repeat;display: block;}
+.yyy{box-shadow: 0 0 15px #999;}
+
+
+.show-con{height: 3930px;}
+.show-top{width: 1200px;height: 200px;}
+.text1{letter-spacing: 6px; color: #333; padding-top: 80px; font-size: 36px;text-align: center; }
+.text2{color: #999;padding-top: 10px;text-align: center;font-size: 18px;}
+.show-pic{height: 512px;}
+.show-pic li .show-picq{width: 224px;height: 224px;}
+.show-pic ul li{width: 224px;height: 224px; float: left;margin-bottom: 60px;margin-right: 20px; position: relative;}
+.show-pic ul li:nth-child(5){float: right;margin-right: 0;}
+.show-pic ul li:nth-child(10){float: right;margin-right: 0;}
+.show-pic img{transition: all 0.4s; width: 224px;height: 224px;}
+.showbox{transition: all 0.4s;  width: 224px;height: 224px;background: rgba(0,0,0,0.3);position: absolute;top: 0;left: 0;}
+.showbox p{font-size: 24px;color: #fff;text-align: center;line-height: 224px;}
+
+.show-rect{margin-top:80px;height:3060px;}
+.show-rect ul li:nth-child(odd){margin-bottom: 44px; width: 578px;height: 578px;border: 1px solid #777777;float:left;position: relative;}
+.show-rect ul li:nth-child(even){margin-bottom: 44px; width: 578px;height: 578px;border: 1px solid #777777;float:right;position: relative;}
+.rectpic{width:537px;height: 394px;overflow: hidden;margin: 20px auto;}
+.rectpic img{transition: all 1s; }
+.rect-text1{margin-left:48px;color: #666;font-size: 24px;}
+.rect-text2{margin-left:48px;color: #666;font-size: 30px;}
+.rect-line{width:488px;margin-left: 48px;margin: 14px auto;height: 2px;background:#ccc;}
+.rect-more{position: absolute;right: 46px;bottom:20px;color: #999;}
+.show-more{ width: 102px;height: 26px;border-radius:13px;border: 1px solid #999;margin-top: 60px;}
+.show-more p{text-align: center;line-height: 26px;color: #999;}
+.morebg{background:#416a17;color: #fff;}
+.work-con{width: 1200px;height: 490px;}
+.work-top{width: 1200px;height: 200px;}
+.work-pic{width:1042px;height:210px;margin-top:15px;}
+.work-pic ul li{margin-top: 24px;margin-right: 135px; width:100px;height: 184px;float: left;overflow: hidden;}
+.work-pic ul li:last-child{float: right;margin-right: 0;}
+.mark-move img{transform: translateX(-90px);}
+
+.work-pic ul li p{text-align: center;line-height: 84px;font-size: 20px;color: #666;}
+.work-pic .mark-move p{line-height: 104px;margin-left: -20px;}
+.work-pic .mark-upup p{line-height: 120px;margin-left: 12px;}
+.mark-time:hover img{transform: translateX(-101px);}
+.mark-move:hover img{transform: translateX(6px);}
+.mark-base:hover img{transform: translateX(-120px);}
+.mark-upup:hover img{transform: translateX(-118px);}
+.mark-son:hover img{transform: translateX(-117px);}
+
+
+
+.work-pic ul li:hover p{color:#416a17;}
+
+
+
+

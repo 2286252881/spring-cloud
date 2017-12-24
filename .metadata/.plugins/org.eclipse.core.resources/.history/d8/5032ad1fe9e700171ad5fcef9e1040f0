@@ -1,0 +1,7 @@
+package com.tangcco.manager.controller;
+
+public class AnswerController {
+
+	@Autowired
+	private AnswerService answerService;
+}

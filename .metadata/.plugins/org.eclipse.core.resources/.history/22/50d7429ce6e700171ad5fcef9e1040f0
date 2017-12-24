@@ -1,0 +1,128 @@
+package com.tangcco.manager.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.tangcco.employee.beans.Development;
+
+@Table(name = "manager")
+public class Manager {
+	@Id
+	private Integer id;
+
+	private String name;
+
+	private String account;
+
+	private String password;
+
+	private Integer state;
+	
+	@Column(name = "question_id")
+	private String dname;
+	
+
+	public String getDname() {
+		return dname;
+	}
+
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
+
+	@Column(name = "question_id")
+	private Integer questionId;
+
+	@Column(name = "answer_id")
+	private Integer answerId;
+
+	@Column(name = "devel_id")
+	private Integer develId;
+
+	@Column(name = "level_id")
+	private Integer levelId;
+
+	// 所属部门
+	private Development development;
+
+	public Development getDevelopment() {
+		return development;
+	}
+
+	public void setDevelopment(Development development) {
+		this.development = development;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name == null ? null : name.trim();
+	}
+
+	public String getAccount() {
+		return account;
+	}
+
+	public void setAccount(String account) {
+		this.account = account == null ? null : account.trim();
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password == null ? null : password.trim();
+	}
+
+	public Integer getState() {
+		return state;
+	}
+
+	public void setState(Integer state) {
+		this.state = state;
+	}
+
+	public Integer getQuestionId() {
+		return questionId;
+	}
+
+	public void setQuestionId(Integer questionId) {
+		this.questionId = questionId;
+	}
+
+	public Integer getAnswerId() {
+		return answerId;
+	}
+
+	public void setAnswerId(Integer answerId) {
+		this.answerId = answerId;
+	}
+
+	public Integer getDevelId() {
+		return develId;
+	}
+
+	public void setDevelId(Integer develId) {
+		this.develId = develId;
+	}
+
+	public Integer getLevelId() {
+		return levelId;
+	}
+
+	public void setLevelId(Integer levelId) {
+		this.levelId = levelId;
+	}
+}

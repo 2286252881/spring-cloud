@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 缓存配置 -->
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+	updateCheck="false">
+	<diskStore path="java.io.tmpdir/Tmp_EhCache" />
+
+	<!-- 默认配置 -->
+	<defaultCache maxElementsInMemory="5000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120"
+		memoryStoreEvictionPolicy="LRU" overflowToDisk="false" />
+
+	<!-- 首页缓存 -->
+	<!-- 轮播图缓存 -->
+	<cache name="other_pic" maxElementsInMemory="10000"
+		maxElementsOnDisk="100000" />
+
+	<!-- 一级菜单菜单缓存 -->
+	<cache name="menu" maxElementsInMemory="10000" maxElementsOnDisk="100000" />
+
+	<!-- 案例缓存 -->
+	<cache name="case" maxElementsInMemory="10000" maxElementsOnDisk="100000" />
+
+	<!-- 人才团队缓存 -->
+	<!-- 员工缓存 -->
+	<cache name="employee" maxElementsInMemory="10000"
+		maxElementsOnDisk="100000" />
+
+	<!-- 招聘信息缓存 -->
+	<cache name="recruit" maxElementsInMemory="10000"
+		maxElementsOnDisk="100000" />
+
+	<!-- 管理员缓存 -->
+	<cache name="manager" maxElementsInMemory="10000"
+		maxElementsOnDisk="100000" />
+
+</ehcache>

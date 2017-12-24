@@ -1,0 +1,95 @@
+
+
+.con-nav{width:1200px;height: 160px;background: #fff;}
+.con-nav ul{width:720px;height:80px;background:#333333;margin-left: 480px;}
+.con-nav ul li{color: rgba(255,255,255,1);transition: all 0.3s;  position: relative; float: left;line-height: 80px;width:144px;text-align: center;cursor: pointer;}
+.con-nav span{width: 30px;height: 2px;background: #fff;position: absolute;top: 64px;left: 56px;opacity:0;}
+.container{ width:1200px; margin-bottom: 80px;}
+/*ad*/
+.container ul li{display: none;}
+.group-one{width: 1200px; height:2500px;}
+.group-two{width: 1200px; height:1070px;}
+.group-three{width: 1200px; height:640px;}
+.group-fore{width: 1200px; height:575px;}
+.group-five{width: 1200px; height:500px;}
+
+.c-top{border-left:8px solid #416a17;}
+.p1{
+	color: #333;
+	font-weight: lighter;
+	font-family: "microsoft yahei";
+	font-size: 30px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.p2{
+	font-size: 16px;
+	color: #999;
+	font-weight: lighter;
+	margin-left: 5px;
+	
+}
+.en-pr{height: 942px;}
+.en-pr-top{height:63px;}
+.en-pr-text{color: #333; margin-left: 16px; height:280px;margin-top:60px;margin-bottom:40px;}
+.en-pr-img{height:500px;}
+
+
+.en-qu{height: 145px;margin-bottom: 80px;}
+.en-qu-top{height: 63px;margin-top: 80px;}
+.en-qu-text{margin-left: 16px;width: 1100px; height: 82px;color: #333;font-size: 22px;margin-top: 60px;margin-bottom: 80px;}
+
+.en-de{height:1420px;}
+.en-de-top{height:62px;}
+.en-de-text{height: 59px;margin: 60px 0;}
+.en-de-img{position:relative; height: 1179px;}
+.en-de-img img{position: absolute;left: 50%;margin-left: -136px;}
+.en-de-img ol{font-size: 20px;color: #333;}
+.en-de-img .de1{position: absolute;top: 86px;left: 290px;}
+.en-de-img .de2{position: absolute;top: 220px;left: 700px;}
+.en-de-img .de3{position: absolute;top: 360px;left: 326px;}
+.en-de-img .de4{position: absolute;top: 486px;left: 700px;}
+.en-de-img .de5{position: absolute;top: 620px;left: 270px;}
+.en-de-img .de6{position: absolute;top: 750px;left: 700px;}
+
+
+
+.group-fore-top{height: 60px;}
+.group-fore-img{width:455px;margin-top:60px;}
+.group-fore-img img{margin-top: -30px; margin-left: -210px;}
+.group-fore-img p{width: 600PX;line-height: 50px; margin-left: -210px; font-size:22PX;color: #333;}
+
+.group-five-top{height: 62px;}
+.group-five-img{width:716px;margin-top:60px;}
+.group-five-img img{margin-left: -222px;margin-top: 30px;}
+
+.group-three-top{margin-bottom: 54px;}
+.show-news {position: relative; width: 1200px;height: 540px;margin: 0px auto 0; text-align: center;}
+
+.news-left{position: relative; margin-top: 60px;  width: 592px;height: 400px;float: left;}
+.news-right{margin-top: 60px;width: 568px;height: 400px;float:right;}
+.new1{letter-spacing: 6px; color: #333; font-size: 36px;text-align: center; }
+.new2{color: #999;padding-top: 10px;text-align: center;font-size: 18px;}
+.news-left img{display:none;position: absolute;top: 0;left: 0;}
+.news-right dl{height:134px;position: relative;}
+.green{position: absolute; top: 10px;left: 42px;}
+.green p:first-child{width:46px;height: 28px;background:#416a17;font-size: 16px;color: #fff;line-height: 28px;}
+.green p:last-child{font-size: 12px;color:#416a17;line-height: 24px;}
+.new-text{width: 420px;height:134px;position: absolute;right: 35px;}
+.new-text p:first-child{text-align: left;font-size: 16px;color: #333;margin-top: 5px;}
+.new-text p:nth-child(2){text-align: left;font-size: 14px;color: #666;margin-top: 12px;}
+.look{cursor: pointer; margin-top: 8px; float: left; width: 76px;height: 20px;border: 1px solid #ccc;}
+.new-text .look p{float: left; color: #999;font-size: 12px;margin-left:6px; line-height: 10px;}
+.new-text .look span{margin: 6px 7px; float: right; width: 4px;height: 12px;background: url(../images/new04.png)no-repeat;display: block;}
+.yyy{box-shadow: 0 0 15px #999;}
+.new-more{position: absolute;left: 47%;bottom: -80px;width: 102px;height: 26px;border: 1px solid #999;border-radius:15px 15px ;line-height: 26px;text-align: center;}
+.new-more:hover{background: green;box-shadow: none;}
+.new-more:hover a{color: #fff;}
+
+.en-co{height: 737px;margin-bottom: 80px;}
+.en-co-top{margin-bottom: 60px;}
+.en-co-text{height: 614px;}
+
+.en-sp{height: 252px;}
+.en-sp-top{margin-bottom: 60px;}
+.en-sp-text{height: 129px;}

@@ -1,0 +1,196 @@
+
+.container{width:1200px;}
+/*ad*/
+.advantages{
+	margin-top: 80px;
+}
+.adone{
+	font-size: 36px;
+	color: #333;
+}
+.adtwo{
+	font-size: 18px;
+	color: #999;
+	margin-top: 10px;
+}
+.adshow{
+	width: 1080px;
+    height: 350px;
+	margin: 70px auto 80px;
+	font-size: 30px;
+	text-align: center;
+	color: #446919;
+}
+.adshowp-one{
+	margin-top: 74px;
+	margin-bottom: 28px;
+}
+.adshow-box{
+	width: 180px;
+
+	float: left;
+}
+.boxleft{
+	float: left;
+}
+.boxmiddle{
+	float: left;
+	margin: 0 auto;
+	margin-left: 270px;
+}
+.boxright{
+	float: right;
+}
+.service{
+	width: 100%;
+   height: 705px;
+}
+.circle-color{
+	width: 557px;
+	height: 557px;
+	margin: 40px auto;
+	position: relative;
+}
+.circle-color p{
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+}
+.p-a{
+	top: 70px;
+	left: 150px;
+}
+.p-b{
+	top: 100px;
+	left: 350px;
+}
+.p-c{
+	top: 280px;
+	left: 420px;
+}
+.p-d{
+	top: 450px;
+	left: 280px;
+}
+.p-e{
+	top: 410px;
+	left: 90px;
+}
+.p-f{
+	top: 230px;
+	left: 20px;
+}
+.circle-color .p-center{
+	font-size: 80px;
+	color: #333;
+	top: 200px;
+	left: 250px;
+}
+.circle-color .pword-center{
+	color: #333;
+	top: 300px;
+	left: 200px;
+}
+/*content*/
+.content{
+	width: 100%;
+	height: 650px;
+	margin: 80px 0;
+	overflow: hidden;
+}
+.img{
+	width: 224px;
+	height: 224px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-top: 60px;
+	position: relative;
+	margin-right: 20px;
+	
+}
+
+.gray{
+	width: 224px;
+	height: 224px;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.contentp-one{
+	position: absolute;
+	font-size: 24px;
+	color: #fff;
+	top: 50%;
+    left: 64px;
+    text-align: center;
+}
+.img:hover .gray,.img:hover .contentp-one{
+	display: none;
+}
+.pic-right{
+	margin-right: 0;
+}
+/*flow*/
+.flow{
+	width: 100%;
+	height: 400px;
+	background: #eee;
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+.flow-one{
+	width: 300px;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.flow-two{
+	width: 300px;
+	height: 200px;
+	background: #446919;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.flow-one:hover .flow-two{
+	display: block;
+}
+.flow-one img{
+    line-height: 100px;
+    width: 58px;
+    height: 61px;
+}
+.flow-circleone,.flow-circletwo{
+	margin-top: 50px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #333;
+	float: left;
+	text-align: center;
+    line-height: 150px;
+}
+.flow-circletwo{
+	border: 1px solid #fff;
+	line-height: 100px;
+}
+.flow-word,.flow-wordtwo{
+	display: inline-block;
+	float: left;
+	line-height: 200px;
+	margin-left: 42px;
+	font-size: 24px;
+	color: #333;
+}
+.flow-number{
+	font-size: 48px;
+	color: #fff;
+}
+.flow-wordtwo{
+	color: #fff;
+}

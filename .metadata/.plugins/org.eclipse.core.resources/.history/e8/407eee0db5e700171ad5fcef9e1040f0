@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: microservice-discovery-eureka-ha
+---
+spring:
+  profiles: peer1                                 # 指定profile=peer1
+server:
+  port: 8761
